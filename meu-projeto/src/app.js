@@ -37,7 +37,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // 🟢 Redireciona a rota raiz para a página de login
 app.get('/', (req, res) => {
-  res.redirect('/login.html');
+  res.redirect('/index.html');
 });
 
 // ======== ROTAS DE REGISTRO E LOGIN ========
